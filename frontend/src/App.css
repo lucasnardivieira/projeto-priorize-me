@@ -1,0 +1,138 @@
+/* Global styles */
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  font-family: 'Arial', sans-serif;
+}
+
+/* Logo styles */
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+/* Animation for logo */
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+/* Card Styles */
+.card {
+  padding: 2em;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+}
+
+.card:hover {
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* LeadList Styles */
+.lead-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 1.5em;
+  margin-bottom: 1em;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+}
+
+.lead-item:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.lead-info {
+  text-align: left;
+}
+
+.lead-score {
+  text-align: right;
+}
+
+.text-high {
+  color: #28a745;
+}
+
+.text-medium {
+  color: #ffc107;
+}
+
+.text-low {
+  color: #dc3545;
+}
+
+/* Button Styles */
+button {
+  padding: 0.8em 1.5em;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+button:disabled {
+  background-color: #b0d0ff;
+  cursor: not-allowed;
+}
+
+/* Error and Loading Styles */
+.text-loading {
+  font-size: 1.1em;
+  color: #007bff;
+  font-weight: bold;
+}
+
+.text-error {
+  font-size: 1.1em;
+  color: #dc3545;
+  font-weight: bold;
+}
+
+/* Responsive Layout */
+@media (max-width: 768px) {
+  #root {
+    padding: 1rem;
+  }
+
+  .card {
+    padding: 1.5em;
+  }
+
+  .lead-item {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 1em;
+  }
+}
+
