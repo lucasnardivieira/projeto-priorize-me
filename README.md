@@ -89,7 +89,7 @@ A aplicação React estará acessível na URL [http://localhost:5173](http://loc
 
 1. Abra o navegador e vá para [http://localhost:5173](http://localhost:5173).
 
-2. Na interface, você verá um botão para enviar um arquivo CSV com os dados dos leads.
+2. Na interface, você verá um botão para enviar um arquivo CSV com os dados dos leads. Tem um exemplo "leads_exemple.csv" na raiz deste projeto.
 
 O arquivo deve seguir a estrutura abaixo:
 
