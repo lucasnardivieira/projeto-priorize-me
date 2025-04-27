@@ -1,13 +1,13 @@
 # PRIORIZE ME - Classificador de Leads
 
 ## Visão Geral
-**Priorize Me** é uma aplicação voltada para otimizar o processo de vendas e a priorização de leads para equipes comerciais. O objetivo principal é ajudar as equipes de vendas a focarem nos leads com maior potencial de conversão, utilizando um modelo de machine learning treinado para classificar os leads com base em características como cargo, interações, tamanho da empresa e o uso de email profissional.
+**Priorize Me** é uma aplicação voltada para otimizar o processo de vendas e a priorização de leads para equipes comerciais. O objetivo principal é ajudar as equipes de vendas a focarem nos leads com maior potencial de conversão, utilizando um modelo de machine learning treinado para classificar os leads.
 
 ## Problema
-Empresas frequentemente têm dificuldades em priorizar leads de maneira eficiente, o que pode resultar em perda de oportunidades e recursos mal alocados. O processo manual de avaliação de leads pode ser demorado e sujeito a erros, dificultando a análise de grandes volumes de dados.
+Empresas frequentemente têm dificuldades em priorizar leads de maneira eficiente, o que pode resultar em perda de oportunidades e recursos mal alocados.
 
 ## Solução
-O **Priorize Me** automatiza a classificação dos leads com base em um modelo de machine learning. Ao carregar um arquivo CSV com dados dos leads, o sistema classifica cada um com uma pontuação e uma categoria de prioridade (**Alta**, **Média** ou **Baixa**), permitindo que as equipes comerciais foquem nos leads com maior chance de conversão. A solução é simples, acessível e eficiente para otimizar o trabalho das equipes de vendas.
+O **Priorize Me** automatiza a classificação dos leads com base em um modelo de machine learning. Ao carregar um arquivo CSV com dados dos leads, o sistema classifica cada um com uma pontuação e uma categoria de prioridade (**Alta**, **Média** ou **Baixa**), permitindo que as equipes comerciais foquem nos leads com maior chance de conversão.
 
 ## Funcionalidade
 - **Upload de Leads**: O usuário pode enviar um arquivo CSV com os dados dos leads (nome, cargo, interações, tamanho da empresa e email profissional).
@@ -31,10 +31,10 @@ Notificações de Follow-up: O sistema pode incluir funcionalidades que alertem 
 - Python (versão 3.7 ou superior)
 - pip (gerenciador de pacotes do Python)
 
-### Passo 1: Clonar o repositório
+### Passo 1: Clonar o repositório (pule este passo se tiver baixado esta pasta)
 Primeiro, clone o repositório para a sua máquina local:
 ```bash
-git clone https://github.com/usuario/projeto-priorize-me.git
+git clone https://github.com/lucasnardivieira/projeto-priorize-me.git
 cd projeto-priorize-me
 ```
 ### Passo 2: Rodar o Back-end
@@ -52,12 +52,6 @@ cd projeto-priorize-me
 
         ```bash
         venv\Scripts\activate
-        ```
-
-    - **Mac/Linux:**
-
-        ```bash
-        source venv/bin/activate
         ```
 
 3. Instale as dependências do back-end:
